@@ -56,7 +56,7 @@ export default {
                 console.log(myError)
 
                 if(myError.response.data == 'Invalid user credentials'){
-                    this.credentialsError = ture
+                    this.credentialsError = true
                 }else{this.loginError = true}
             })
         }
